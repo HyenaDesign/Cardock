@@ -1,0 +1,40 @@
+dateModified: 1704912367
+email:
+  fromEmail: r0952543@student.thomasmore.be
+  fromName: cardock
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    1a40215a-2812-47b2-bc5e-cba661196a72: Home # Home
+    3aa5b9f2-2e05-45b5-b906-f91e29d62eba: Common # Common
+    7e684888-0b04-4a3c-af9a-4c1c7db9ae95: cardock # cardock
+    76b3a444-c84b-4b11-aec2-119eb91fd637: Home # Home
+    373ed34c-d413-4712-ae20-f9329a5a3ccf: 'Section Title' # Section Title
+    865b8d0e-f3fa-4989-a77f-a901ad25cee0: 'Rich Text' # Rich Text
+    a3ace14b-b6ce-42ce-a18f-8b669e8f2e12: 'Hero Description' # Hero Description
+    af49da08-04f8-45e3-ae6f-f4decf4397ce: Documents # Documents
+    b158c1f2-fbd0-44ab-9d78-2fd2c6115e8b: cardock # cardock
+    c0329162-a0ac-42a5-9c22-e31f82ea7812: 'Short Description' # Short Description
+    d854a27e-0e7e-4a6c-9197-e1e8e1e30475: 'Hero Title' # Hero Title
+    dd9465b3-c03b-49de-8a4f-5b6faeab975d: Default # Default
+plugins:
+  abm-tinymce:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: cardock
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

@@ -1,0 +1,83 @@
+fieldLayouts:
+  b985a9cf-e69f-46f0-b2d8-6f9d57fba90b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 10607096-a0e6-4adf-8f3c-1c66ea43c73e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 88e458f4-efb4-4d7f-ab73-6820b5fbf1dc
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d02ce83c-80a3-40b3-9c30-6bc1812a457f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 865b8d0e-f3fa-4989-a77f-a901ad25cee0 # Rich Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5b6cc2ed-1cb6-43ae-b282-c3f58b5b5ee2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c0329162-a0ac-42a5-9c22-e31f82ea7812 # Short Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ac56c44a-1e7b-467b-a64b-6cf26d745dd3
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 4d0f3980-2c5e-46c5-adca-27c3c8cfe196
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: af49da08-04f8-45e3-ae6f-f4decf4397ce # Documents
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

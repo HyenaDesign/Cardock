@@ -1,0 +1,19 @@
+columnSuffix: pctcynos
+contentColumnType: text
+fieldGroup: 3aa5b9f2-2e05-45b5-b906-f91e29d62eba # Common
+handle: shortDescription
+instructions: null
+name: 'Short Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

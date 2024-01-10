@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">CARDOCK</div>
+        <div class="nav-items">
+            <a href="#">Home</a>
+            <a href="#">Docs</a>
+            <a href="#">Pricing</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero-container">
+                <h1>{{ entry.heroTitle }}</h1>
+                <p>{{ entry.heroDescription }}</p>
+                <button>Get Started</button>
+        </div>
+    </section>
+
+    <section class="content">
+    <div class="section-start">
+        <h2 class="title">{{ entry.sectionTitle }}</h2>
+
+            <form method="get">
+                <label for="sortOrder">Sort by date:</label>
+                <select name="sortOrder" id="sortOrder">
+                    <option value="desc">Descending</option>
+                    <option value="asc">Ascending</option>
+                </select>
+                <button type="submit">Sort</button>
+            </form>
+        </div>
+
+        {% set sortOrder = craft.app.request.getParam('sortOrder') ?? 'desc' %}
+        {% set documents = craft.entries.section('documents').orderBy('postDate ' ~ sortOrder).all() %}
+
+        {% for doc in documents %}
+        <div class="document">
+            <img src="images/300x220.png" alt="placeholder">
+            <div class="text">
+                <h2>{{ doc.title }}</h2>
+                <p>{{ doc.shortDescription }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </section>
+    <footer>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>

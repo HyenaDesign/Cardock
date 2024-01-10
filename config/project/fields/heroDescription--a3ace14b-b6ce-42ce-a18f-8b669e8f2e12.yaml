@@ -1,0 +1,19 @@
+columnSuffix: ukmjpawy
+contentColumnType: string(800)
+fieldGroup: 3aa5b9f2-2e05-45b5-b906-f91e29d62eba # Common
+handle: heroDescription
+instructions: null
+name: 'Hero Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 200
+  code: false
+  columnType: null
+  initialRows: 3
+  multiline: true
+  placeholder: 'Here goes your hero description..'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

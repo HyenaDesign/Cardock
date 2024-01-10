@@ -1,0 +1,19 @@
+columnSuffix: hfmoovit
+contentColumnType: string(240)
+fieldGroup: 3aa5b9f2-2e05-45b5-b906-f91e29d62eba # Common
+handle: heroTitle
+instructions: null
+name: 'Hero Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 60
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: 'Here goes your hero title..'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
